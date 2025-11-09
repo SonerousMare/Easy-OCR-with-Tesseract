@@ -8,4 +8,4 @@ How to use code:
 2. Replace "insert_filepath" in the code with your file path, *inside the quotation marks*.
 3. Replace "image_file name here" with the name of your image.
 
-**Now you are done** 
+**Now you are done**.
