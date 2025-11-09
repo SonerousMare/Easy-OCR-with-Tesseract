@@ -5,7 +5,7 @@ Here, we use **Tesseract**, an open source text recognition (OCR) Engine to iden
 **Guidance on how to install Tesseract** is found at https://tesseract-ocr.github.io/tessdoc/Installation.html
 
 ## Handwriting guidance
-For the code to work, ensure that you write your numbers with **no space in between** and **in a row**
+For the code to work, ensure that you write your numbers with **no space in between** and **in a row**.
 
 ## How to use code
 1. Find file path for **tesseract.exe** on your computer. The location of **tesseract.exe** is where you chose to install it during the installation process. If you weren't paying attention and didn't choose anything, *by default*, the Tesseract **folder** is installed in Program Files. Click on the folder and find a file simply named **tesseract** and copy the file path.
