@@ -8,4 +8,4 @@ Here, we use **Tesseract**, an open source text recognition (OCR) Engine to iden
 2. Replace "insert_filepath" in the code with your file path, *inside the quotation marks*.
 3. Replace "image_file name here" with the name of your image.
 
-## **Now you are done**.
+## **Now you are done**!
