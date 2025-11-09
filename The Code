@@ -20,4 +20,4 @@ Number = Number.point(lambda x: 0 if x < 128 else 255, '1')
 
 
 text = pytesseract.image_to_string(Number, config = '--psm 8 outputbase digits')
-print(text)
+print(f"Your number is {text}")
