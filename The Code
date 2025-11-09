@@ -1,0 +1,23 @@
+import os
+import pytesseract 
+
+pytesseract.pytesseract.tesseract_cmd = r"insert_filepath"
+
+from PIL import Image
+
+script_dir = os.path.dirname(os.path.abspath(__file__)) #Directly finds the path...no hassle!
+FILENAME = os.path.join(script_dir, "image_file name here")
+
+# if os.path.exists(FILENAME):
+#     print(f"Found the image at {FILENAME}")
+# else:
+#     print(f"Image not found at {FILENAME}")
+
+### Converting image to grayscale and increasing constrast via thresholding
+Number = Image.open(FILENAME)
+Number = Number.convert('L')
+Number = Number.point(lambda x: 0 if x < 128 else 255, '1')
+
+
+text = pytesseract.image_to_string(Number, config = '--psm 8 outputbase digits')
+print(text)
