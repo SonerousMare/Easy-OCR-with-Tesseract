@@ -10,3 +10,4 @@ Here, we use **Tesseract**, an open source text recognition (OCR) Engine to iden
 3. Replace "image_file name here" with the name of your image.
 
 ## **Now you are done**!
+-----
